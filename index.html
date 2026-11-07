@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Lead Sheet">
+<meta name="theme-color" content="#1B2A49">
+<title>STG Lead Sheet</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header id="bar">
+  <div class="brand"><b>STG</b> Lead Sheet</div>
+  <div class="tools">
+    <button id="tPen" class="tool on" aria-label="Pen">
+      <svg viewBox="0 0 24 24"><path d="M3 21l3.8-1 11-11-2.8-2.8-11 11L3 21z"/><path d="M14.5 5.5l2.8 2.8 1.9-1.9a1 1 0 000-1.4l-1.4-1.4a1 1 0 00-1.4 0l-1.9 1.9z"/></svg><span>Pen</span></button>
+    <button id="tEraser" class="tool" aria-label="Eraser">
+      <svg viewBox="0 0 24 24"><path d="M16.2 3.8l4 4a1.5 1.5 0 010 2.1L11 19H7l-3.2-3.2a1.5 1.5 0 010-2.1l10.3-10a1.5 1.5 0 012.1.1z"/><path d="M7 19h13" /></svg><span>Eraser</span></button>
+    <button id="tUndo" class="tool" aria-label="Undo">
+      <svg viewBox="0 0 24 24"><path d="M9 14L4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 010 11H11"/></svg><span>Undo</span></button>
+  </div>
+  <div class="right">
+    <span id="saved" class="saved"></span>
+    <button id="bNew" class="plain">New</button>
+    <button id="bSave" class="gold">Save PDF</button>
+  </div>
+</header>
+
+<main id="doc"></main>
+
+<input id="camInput" type="file" accept="image/*" capture="environment" hidden>
+
+<div id="sheet" class="modal" hidden>
+  <div class="card" role="dialog">
+    <h3 id="sheetTitle">Photo</h3>
+    <div id="sheetBody" class="stack"></div>
+    <button class="plain wide" data-close>Cancel</button>
+  </div>
+</div>
+
+<div id="viewer" class="viewer" hidden><img alt=""><button class="plain" data-close>Close</button></div>
+<div id="busy" class="busy" hidden><div class="spin"></div><p>Making your PDF…</p></div>
+<div id="toast" class="toast" hidden></div>
+
+<script src="jspdf.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

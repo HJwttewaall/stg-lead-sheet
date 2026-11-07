@@ -1,0 +1,142 @@
+{
+ "width": 816,
+ "height": 1056,
+ "pages": 5,
+ "slots": [
+  {
+   "page": 3,
+   "id": "kitchen",
+   "room": "Kitchen",
+   "x": 590,
+   "y": 102,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 3,
+   "id": "breakfast-area",
+   "room": "Breakfast area",
+   "x": 590,
+   "y": 199,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 3,
+   "id": "living",
+   "room": "Living",
+   "x": 590,
+   "y": 296,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 3,
+   "id": "dining",
+   "room": "Dining",
+   "x": 590,
+   "y": 393,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 3,
+   "id": "family",
+   "room": "Family",
+   "x": 590,
+   "y": 490,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 3,
+   "id": "master",
+   "room": "Master",
+   "x": 590,
+   "y": 587,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 3,
+   "id": "master-bath",
+   "room": "Master bath",
+   "x": 590,
+   "y": 684,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 3,
+   "id": "bed-2",
+   "room": "Bed #2",
+   "x": 590,
+   "y": 781,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 4,
+   "id": "bed-3",
+   "room": "Bed #3",
+   "x": 590,
+   "y": 86,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 4,
+   "id": "bed-4",
+   "room": "Bed #4",
+   "x": 590,
+   "y": 183,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 4,
+   "id": "main-bath",
+   "room": "Main bath",
+   "x": 590,
+   "y": 280,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 4,
+   "id": "basement",
+   "room": "Basement",
+   "x": 590,
+   "y": 377,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 4,
+   "id": "laundry",
+   "room": "Laundry",
+   "x": 590,
+   "y": 474,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 4,
+   "id": "backyard",
+   "room": "Backyard",
+   "x": 590,
+   "y": 571,
+   "w": 170,
+   "h": 85
+  },
+  {
+   "page": 4,
+   "id": "additional",
+   "room": "Additional",
+   "x": 590,
+   "y": 668,
+   "w": 170,
+   "h": 85
+  }
+ ]
+}
